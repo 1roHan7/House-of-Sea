@@ -1,0 +1,396 @@
+import { Product } from "@/types";
+
+export const products: Product[] = [
+  // TIDAL COLLECTION
+  {
+    id: "p-01",
+    slug: "tidal-wave-ring",
+    title: "Tidal Wave Ring",
+    tagline: "The ocean in a loop",
+    price: 8500,
+    compareAtPrice: 10000,
+    images: [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+    ],
+    category: "rings",
+    collection: "tidal",
+    metal: "gold",
+    description:
+      "A sculptural band that wraps and rises like a breaking wave. Cast in 18K gold-plated brass with a high-polish finish that catches light at every turn.",
+    details: [
+      "18K gold-plated brass",
+      "High-polish finish",
+      "Handcrafted in India",
+      "Available in sizes 5–10",
+      "Width: 4mm at widest point",
+    ],
+    variants: [
+      { id: "v-01a", title: "Size 5", size: "5", inStock: true },
+      { id: "v-01b", title: "Size 6", size: "6", inStock: true },
+      { id: "v-01c", title: "Size 7", size: "7", inStock: true },
+      { id: "v-01d", title: "Size 8", size: "8", inStock: false },
+      { id: "v-01e", title: "Size 9", size: "9", inStock: true },
+    ],
+    featured: true,
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: "p-02",
+    slug: "tidal-drop-earrings",
+    title: "Tidal Drop Earrings",
+    tagline: "Liquid gold, suspended",
+    price: 6200,
+    images: [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=90&fit=crop",
+    ],
+    category: "earrings",
+    collection: "tidal",
+    metal: "gold",
+    description:
+      "Elongated teardrops that sway with every movement. The organic form is hand-finished to preserve subtle texture — no two pairs are exactly alike.",
+    details: [
+      "18K gold-plated sterling silver",
+      "Sterling silver ear posts",
+      "Length: 4.5cm",
+      "Weight: 3g per pair",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-02a", title: "Gold", material: "gold", inStock: true },
+      { id: "v-02b", title: "Silver", material: "silver", price: 5800, inStock: true },
+    ],
+    featured: true,
+    isNew: true,
+    inStock: true,
+  },
+  {
+    id: "p-03",
+    slug: "tidal-collar-necklace",
+    title: "Tidal Collar",
+    tagline: "A line at the horizon",
+    price: 12800,
+    images: [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=900&q=90&fit=crop",
+    ],
+    category: "necklaces",
+    collection: "tidal",
+    metal: "gold",
+    description:
+      "A minimal collar necklace with a single fluid curve — like a horizon line worn close. Sits 16 inches from the base of the neck.",
+    details: [
+      "18K solid gold vermeil",
+      "Adjustable 14–18 inch chain",
+      "Lobster clasp closure",
+      "Pendant: 2.8cm wide",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-03a", title: "Gold Vermeil", material: "gold-plated", inStock: true },
+    ],
+    featured: false,
+    isNew: true,
+    inStock: true,
+  },
+  {
+    id: "p-04",
+    slug: "tidal-cuff-bracelet",
+    title: "Tidal Cuff",
+    tagline: "Open. Worn. Yours.",
+    price: 9400,
+    images: [
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+    ],
+    category: "bracelets",
+    collection: "tidal",
+    metal: "gold-plated",
+    description:
+      "An open cuff with tapered ends that echo the tip of a wave. Comfortable enough to wear daily, beautiful enough to keep.",
+    details: [
+      "18K gold-plated brass",
+      "Open cuff, adjustable",
+      "Width: 6mm",
+      "Inner diameter: 58mm",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-04a", title: "Gold Plated", material: "gold-plated", inStock: true },
+      { id: "v-04b", title: "Oxidised Silver", material: "oxidised", price: 8200, inStock: true },
+    ],
+    featured: false,
+    isNew: false,
+    inStock: true,
+  },
+
+  // DRIFT COLLECTION
+  {
+    id: "p-05",
+    slug: "drift-stacking-rings",
+    title: "Drift Stacking Set",
+    tagline: "Three rings. One story.",
+    price: 14500,
+    compareAtPrice: 17000,
+    images: [
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+    ],
+    category: "rings",
+    collection: "drift",
+    metal: "silver",
+    description:
+      "A set of three sterling silver stacking rings — a flat band, a twisted band, and a delicate beaded band. Wear them together or one at a time.",
+    details: [
+      "925 sterling silver",
+      "Set of 3 rings",
+      "Widths: 2mm, 3mm, 2mm",
+      "Available in sizes 5–10",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-05a", title: "Size 5", size: "5", inStock: true },
+      { id: "v-05b", title: "Size 6", size: "6", inStock: true },
+      { id: "v-05c", title: "Size 7", size: "7", inStock: true },
+      { id: "v-05d", title: "Size 8", size: "8", inStock: true },
+    ],
+    featured: true,
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: "p-06",
+    slug: "drift-hoop-earrings",
+    title: "Drift Hoops",
+    tagline: "Small. Perfect. Everyday.",
+    price: 4800,
+    images: [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90&fit=crop",
+    ],
+    category: "earrings",
+    collection: "drift",
+    metal: "gold",
+    description:
+      "20mm flat hoops with a brushed finish — understated and endlessly wearable. The inner edge is smooth for all-day comfort.",
+    details: [
+      "18K gold-plated sterling silver",
+      "Diameter: 20mm",
+      "Brushed finish",
+      "Hinged clasp",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-06a", title: "Gold", material: "gold", inStock: true },
+      { id: "v-06b", title: "Silver", material: "silver", price: 4200, inStock: true },
+    ],
+    featured: true,
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: "p-07",
+    slug: "drift-lariat-necklace",
+    title: "Drift Lariat",
+    tagline: "Tied loosely. Worn freely.",
+    price: 11200,
+    images: [
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=900&q=90&fit=crop",
+    ],
+    category: "necklaces",
+    collection: "drift",
+    metal: "gold",
+    description:
+      "A Y-lariat necklace with a minimal bead drop. Loop, knot, or let it fall straight — it adapts to how you want to wear it.",
+    details: [
+      "18K gold-plated brass",
+      "Length: 30 inches (adjustable)",
+      "Ball drop: 8mm",
+      "No clasp — lariat style",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-07a", title: "Gold Plated", material: "gold-plated", inStock: true },
+    ],
+    featured: false,
+    isNew: true,
+    inStock: true,
+  },
+  {
+    id: "p-08",
+    slug: "drift-bangle",
+    title: "Drift Bangle",
+    tagline: "Worn with the tide",
+    price: 7600,
+    images: [
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=900&q=90&fit=crop",
+    ],
+    category: "bracelets",
+    collection: "drift",
+    metal: "silver",
+    description:
+      "A slim round bangle in oxidised silver. The darkened finish deepens with age — this one grows more beautiful over time.",
+    details: [
+      "Oxidised 925 sterling silver",
+      "Round bangle, slip-on",
+      "Diameter: 60mm",
+      "Wire thickness: 2.5mm",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-08a", title: "Oxidised Silver", material: "oxidised", inStock: true },
+      { id: "v-08b", title: "Sterling Silver", material: "silver", price: 7200, inStock: true },
+    ],
+    featured: false,
+    isNew: false,
+    inStock: true,
+  },
+
+  // SHORE COLLECTION
+  {
+    id: "p-09",
+    slug: "shore-pebble-ring",
+    title: "Shore Pebble Ring",
+    tagline: "Tide-worn. Timeless.",
+    price: 7200,
+    images: [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+    ],
+    category: "rings",
+    collection: "shore",
+    metal: "oxidised",
+    description:
+      "A wide band with a matte pebble-textured surface. Cast from a real beach stone — each ring carries the memory of where it began.",
+    details: [
+      "Oxidised sterling silver",
+      "Matte pebble texture",
+      "Width: 8mm",
+      "Available in sizes 5–10",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-09a", title: "Size 5", size: "5", inStock: true },
+      { id: "v-09b", title: "Size 6", size: "6", inStock: true },
+      { id: "v-09c", title: "Size 7", size: "7", inStock: false },
+      { id: "v-09d", title: "Size 8", size: "8", inStock: true },
+    ],
+    featured: false,
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: "p-10",
+    slug: "shore-cluster-earrings",
+    title: "Shore Cluster Earrings",
+    tagline: "A handful of sea glass",
+    price: 7800,
+    images: [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90&fit=crop",
+    ],
+    category: "earrings",
+    collection: "shore",
+    metal: "gold",
+    description:
+      "A cluster of irregular pebble forms, each hand-finished to a soft matte. They catch light without demanding it.",
+    details: [
+      "18K gold-plated silver",
+      "Cluster diameter: 18mm",
+      "Post with butterfly back",
+      "Weight: 4g per pair",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-10a", title: "Gold", material: "gold", inStock: true },
+    ],
+    featured: true,
+    isNew: true,
+    inStock: true,
+  },
+  {
+    id: "p-11",
+    slug: "shore-pendant-necklace",
+    title: "Shore Pendant",
+    tagline: "Something from the shoreline",
+    price: 9600,
+    images: [
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90&fit=crop",
+    ],
+    category: "necklaces",
+    collection: "shore",
+    metal: "gold",
+    description:
+      "An oval stone pendant on a delicate 16-inch chain. The surface is lightly hammered — hand-finished to hold its texture.",
+    details: [
+      "18K gold-plated brass",
+      "Pendant: 2.2cm × 1.4cm",
+      "Chain length: 16 inches",
+      "Lightly hammered finish",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-11a", title: "Gold Plated", material: "gold-plated", inStock: true },
+      { id: "v-11b", title: "Oxidised Silver", material: "oxidised", price: 8800, inStock: true },
+    ],
+    featured: false,
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: "p-12",
+    slug: "shore-link-bracelet",
+    title: "Shore Link Bracelet",
+    tagline: "Stone by stone",
+    price: 10200,
+    compareAtPrice: 12000,
+    images: [
+      "https://images.unsplash.com/photo-1573408301185-9519f94815b5?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=900&q=90&fit=crop",
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90&fit=crop",
+    ],
+    category: "bracelets",
+    collection: "shore",
+    metal: "gold",
+    description:
+      "Organic pebble-shaped links joined by fine gold rings. Flexible, weighty, and alive with quiet movement.",
+    details: [
+      "18K gold-plated brass",
+      "7 pebble links",
+      "Length: 18cm with extension",
+      "Lobster clasp",
+      "Handcrafted in India",
+    ],
+    variants: [
+      { id: "v-12a", title: "Gold Plated", material: "gold-plated", inStock: true },
+    ],
+    featured: true,
+    isNew: true,
+    inStock: true,
+  },
+];
+
+export const getFeaturedProducts = () => products.filter((p) => p.featured);
+export const getProductBySlug = (slug: string) => products.find((p) => p.slug === slug);
+export const getProductsByCollection = (collectionSlug: string) =>
+  products.filter((p) => p.collection === collectionSlug);
+export const getRelatedProducts = (product: Product, limit = 4) =>
+  products
+    .filter((p) => p.id !== product.id && p.collection === product.collection)
+    .slice(0, limit);
